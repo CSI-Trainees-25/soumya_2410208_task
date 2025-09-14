@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(270deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+    background-size: 800% 800%;
+    animation: gradientBG 15s ease infinite;
+}
+
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+header {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fwebsite-background-travel&psig=AOvVaw2ZPE_rt_CRjgX8_xAUCH8Q&ust=1757764670563000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMiYm--V048DFQAAAAAdAAAAABAE);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+}
+
+
+.hero {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Beautiful_landscape_mountains.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+#about {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: #333;
+}
+
+
+#destinations {
+    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+}
+
+
+#contact {
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    color: #333;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

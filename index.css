@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: url('img.jpeg');
+  background-size: cover;
+}
+
+/* Header */
+header {
+  position: sticky;  
+  background: transparent;
+  color: white;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #ffe0b2;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Home */
+#home h2 {
+  
+  font-size: 2.5rem;
+  color: #e64a19;
+  margin-bottom: 15px;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: #e64a19;
+}
+
+
+
+/* Menu */
+#menu h2 {
+  color: #bf360c;
+  margin-bottom: 15px;
+}
+
+/* Contact */
+#contact h2 {
+  color: #d84315;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+/* Main Course Section */
+#special {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff3e0;
+}
+
+#special h2 {
+  color: #d84315;
+  margin-bottom: 30px;
+}
+
+.dishes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+  gap: 20px;
+}
+
+.dish {
+  background: #ffe0b2;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.dish img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dish p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #bf360c;
+}
+
+/* Hover effect for dishes */
+.dish:hover {
+  transform: scale(1.05);
+}
+
